@@ -585,4 +585,3 @@ main h1{
 .parent > .div3:hover::before {
     opacity: 1;
 }
-
