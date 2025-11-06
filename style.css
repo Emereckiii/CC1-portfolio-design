@@ -50,7 +50,7 @@ body {
 .orb:nth-child(1) {
     width: 500px;
     height: 500px;
-    background: radial-gradient(circle, rgba(98, 44, 248, 0.3), transparent 70%);
+    background: radial-gradient(circle, rgba(78, 14, 254, 0.3), transparent 70%);
     top: -10%;
     left: -10%;
     animation-delay: 0s;
@@ -59,7 +59,7 @@ body {
 .orb:nth-child(2) {
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, rgba(60, 72, 134, 0.25), transparent 70%);
+    background: radial-gradient(circle, rgba(48, 62, 134, 0.25), transparent 70%);
     top: 30%;
     right: -5%;
     animation-delay: -5s;
@@ -116,19 +116,29 @@ header {
 
 .pagination{
     text-align: center;
+
 }
 
 .pagination a{
     color: white;
     text-decoration: none;
-    padding: 8px 15px;
+    padding: 1px 20px;
+    margin-bottom: 2rem;
     display: inline-block;
-    font-size: 50px;
+    font-size: 30px;
+    background-color: rgba(117, 117, 117, 0.181);
+    border-radius: 50%;
+    transition: 0.3s ease;
+    box-shadow: #7b7b7b 2px solid;
+    
 }
 
 .pagination a:hover{
-    font-size: 60px
-    box-shadow: 0 15px 40px rgba(98, 44, 248, 0.6);
+    transition: 0.5s ease;
+    font-size: 40px;
+    background-color: #622cf8;
+    box-shadow: #622cf8;
+
 }
 nav {
     max-width: 1400px;
@@ -600,4 +610,3 @@ nav ul a:hover::before {
     40% { transform: translateX(-50%) translateY(-15px); }
     60% { transform: translateX(-50%) translateY(-8px); }
 }
-
