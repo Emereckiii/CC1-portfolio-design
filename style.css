@@ -124,9 +124,12 @@ header {
     padding: 8px 15px;
     display: inline-block;
     font-size: 50px;
-
 }
 
+.pagination a:hover{
+    font-size: 60px
+    box-shadow: 0 15px 40px rgba(98, 44, 248, 0.6);
+}
 nav {
     max-width: 1400px;
     margin: 0 auto;
@@ -597,3 +600,4 @@ nav ul a:hover::before {
     40% { transform: translateX(-50%) translateY(-15px); }
     60% { transform: translateX(-50%) translateY(-8px); }
 }
+
