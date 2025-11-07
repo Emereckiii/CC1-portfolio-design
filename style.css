@@ -114,32 +114,41 @@ header {
     border-bottom: 1px solid rgba(98, 44, 248, 0.2);
 }
 
-.pagination{
-    text-align: center;
-
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 5%;
+    margin-top: 2rem;
+    position: relative;
+    z-index: 10;
+    background: transparent;
 }
 
-.pagination a{
+.pagination a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(98, 44, 248, 0.1);
+    border: 2px solid rgba(98, 44, 248, 0.3);
+    border-radius: 50%;
     color: white;
     text-decoration: none;
-    padding: 1px 20px;
-    margin-bottom: 2rem;
-    display: inline-block;
-    font-size: 30px;
-    background-color: rgba(117, 117, 117, 0.181);
-    border-radius: 50%;
-    transition: 0.3s ease;
-    box-shadow: #7b7b7b 2px solid;
-    
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
 }
 
-.pagination a:hover{
-    transition: 0.5s ease;
-    font-size: 40px;
-    background-color: #622cf8;
-    box-shadow: #622cf8;
-
+.pagination a:hover {
+    background: rgba(98, 44, 248, 0.3);
+    border-color: #622cf8;
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(98, 44, 248, 0.4);
 }
+
 nav {
     max-width: 1400px;
     margin: 0 auto;
@@ -456,6 +465,7 @@ nav ul a:hover::before {
 }
 
 .profile-card {
+    margin-top: -12rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -610,3 +620,5 @@ nav ul a:hover::before {
     40% { transform: translateX(-50%) translateY(-15px); }
     60% { transform: translateX(-50%) translateY(-8px); }
 }
+
+
