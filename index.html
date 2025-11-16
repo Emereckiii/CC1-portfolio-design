@@ -1,13 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>James Barnayha - bachelor of science in information technology - Web Technology </title>
+    <title>James Barnayha - Bachelor of Science in Information Technology - Web Technology</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-    </style>
 </head>
 <body>
     <!-- Animated Background -->
@@ -43,101 +40,95 @@
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">JAMES BARNAYHA</h1>
-                <p class="hero-subtitle">BSIT - Web tech</p>
-                <div class="hero-location">📍 Based in the Philippines</div>
-                <p class="hero-description">
-                    BSIT student majoring in Web Technology at the <strong style="color: #8b5cf6;">University of the Cordilleras</strong>. 
+    <!-- Main Content - No Scroll Single Page -->
+    <main class="main-container">
+        <!-- Left Side: Profile & Info -->
+        <div class="left-section">
+            <div class="profile-showcase fade-in">
+                <img src="PIC.jpg" alt="James Barnayha" class="profile-image-main">
+            </div>
+            <div class="personal-info fade-in">
+                <h1 class="name-title">JAMES BARNAYHA</h1>
+                <p class="title-text">BSIT - Web Technology</p>
+                <div class="location-badge">📍 Based in the Philippines</div>
+                <p class="tagline">
+                    Student at the <strong style="color: #8b5cf6;">University of the Cordilleras</strong>
                 </p>
-                <div class="hero-cta">
-                    <a href="about.html" class="btn btn-primary">More about me</a>
+                <div class="action-buttons">
+                    <a href="about.html" class="btn btn-primary">More About Me</a>
                     <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
                 </div>
             </div>
-            <div class="hero-visual fade-in">
-                
-                <img src="PIC.jpg" alt="James Barnayha" class="profile-image">
+        </div>
+
+        <!-- Right Side: Biography & 3D Model -->
+        <div class="right-section">
+
+            <!-- Biography Section -->
+            <div class="biography-section fade-in">         
+                <h2 class="bio-title">Biography </h2>
+                <div class="bio-content-scroll">
+                    <div class="bio-text">
+                        <p>
+                            I'm James Maverick R. Barnayha, a BSIT student majoring in Web Technology at the University of the Cordilleras. 
+                            Born on October 26, 2006, in Calapacuan, Subic, Zambales.
+                        </p>
+                        <p>
+                            I am interested in web designing, UI/UX, and video editing. I find it amusing whenever I create a website that allows me to manipulate its content and design. 
+                            Beyond web development, I have a deep interest in video editing and motion graphics.
+                        </p>
+                        <p>
+                            During my elementary years, I attended Mount Carmel School of San Luis and graduated in 2019 with honors, then for my secondary I 
+                            attended Aurora National Science High School, graduating in 2025 with Outstanding Performance awards in Communication Arts and Media Arts (Filipino category).
+                        </p>
+                        <p>
+                            I'm currently pursuing my degree at the University of the Cordilleras. I aspire to become a professional web developer and 
+                            designer who creates visually stunning, user-friendly websites that allow me to blend my ability to code with my creative and artistic vision.
+                        </p>
+                    </div>
+
+                    <!-- Interests & Achievements in Columns -->
+                    <div class="info-columns">
+                        <div class="info-box">
+                            <h3>Interests</h3>
+                            <ul>
+                                <li>Video Editing</li>
+                                <li>Motion Graphics</li>
+                                <li>Web Design</li>
+                                <li>Web Development</li>
+                                <li>UI/UX Design</li>
+                                <li>Graphic Design</li>
+                            </ul>
+                        </div>
+                        <div class="info-box">
+                            <h3>Achievements</h3>
+                            <ul>
+                                <li>🥇 Best in Technical Application (DSPC 2024)</li>
+                                <li>🥉 3rd Place - Best in Technical Application (RSPC 2024)</li>
+                                <li>🥇 Best in Technical Application (DSsPC 2025)</li>
+                                <li>🥇 Best in Technical Application (DSPC 2025)</li>
+                                <li>🥈 2nd Place - Best in Technical Application (RSPC 2025)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="scroll-indicator" onclick="document.querySelector('#about').scrollIntoView({behavior: 'smooth'})">
-            ↓
-        </div>
-    </section>
+    </main>
 
-    <!-- About Section -->
-    <section class="about-section" id="about">
-        <h2 class="section-title fade-in">Biography</h2>
-        <div class="profile-card fade-in">
-                <spline-viewer class="planet-3d" url="https://prod.spline.design/338it2apgJ635QOh/scene.splinecode"></spline-viewer>
-            </div>
-        <div class="about-grid">
-            <div class="card bio-card fade-in">
-                <h3 class="card-title">My Story</h3>
-                <div class="card-content">
-                    <p>
-                        I'm James Maverick R. Barnayha, a BSIT student majoring in Web Technology at the University of the Cordilleras. 
-                        Born on October 26, 2006, in Calapacuan, Subic, Zambales.
-                    </p>
-                    <p>
-                        I am interested in web designing, UI/UX, and video editing. I find it ammusing whenever I create a website that allows me to manipulate its content and design. 
-                        Beyond web development, I have a deep interest in video editing and 
-                        motion graphics.
-                    </p>
-                    <p>
-                        During my elementary years, I attended at Mount Carmel School of San Luis and graduated in 2019 with honors, then for my secondary I 
-                        attended Aurora National Science High School, 
-                        graduating in 2025 with Outstanding Performance awards in Communication Arts and Media Arts (Filipino category).
-                    </p>
-                    <p>
-                        I'm Currently pursuing my degree at the University of the Cordilleras, I aspire to become a professional web developer and 
-                        designer who creates visually stunning, user-friendly websites that allows me to blend my ability to code with my creative and artistic vision.
-                    </p>
-                </div>
-            </div>
-
-            <div class="card interests-card fade-in">
-                <h3 class="card-title">Interests</h3>
-                <div class="card-content">
-                    <ul>
-                        <li>Video Editing</li>
-                        <li>Motion Graphics</li>
-                        <li>Web Design</li>
-                        <li>Web Development</li>
-                        <li>UI/UX Design</li>
-                        <li>Graphic Design</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="card achievements-card fade-in" id="achievements">
-                <h3 class="card-title">Achievements</h3>
-                
-                <div class="card-content">
-                    <ul>
-                        <li>🥇 Best in Technical Application (DSPC 2024)</li>
-                        <li>🥉 3rd Place - Best in Technical Application (RSPC 2024)</li>
-                        <li>🥇 Best in Technical Application (DSsPC 2025)</li>
-                        <li>🥇 Best in Technical Application (DSPC 2025)</li>
-                        <li>🥈 2nd Place - Best in Technical Application (RSPC 2025)</li>
-                    </ul>
-                </div>
-            </div>
-
-            
-            </div>
-    </section>
-
+    <!-- Pagination -->
     <div class="pagination">
-        <a href="index.html"> < </a>
-        <a href="about.html"> > </a>
+        <a href="index.html" class="pagination-btn prev">
+            <span>←</span>
+            <span class="pagination-text">Previous</span>
+        </a>
+        <a href="about.html" class="pagination-btn next">
+            <span class="pagination-text">Next</span>
+            <span>→</span>
+        </a>
     </div>
 
-     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.95/build/spline-viewer.js"></script>
-    <script src="app.js" defer></script>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.95/build/spline-viewer.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
-
