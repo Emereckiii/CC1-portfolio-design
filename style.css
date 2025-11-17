@@ -321,6 +321,10 @@ nav ul a:hover::before {
     border-color: #622cf8;
 }
 
+.UCjaguars{
+    color: #622cf8;
+}
+
 /* =============== RIGHT SECTION =============== */
 .right-section {
     display: flex;
