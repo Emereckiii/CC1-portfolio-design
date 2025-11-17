@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Barnayha - Educational Attainment</title>
+    <link rel="stylesheet" href="style_educ.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">JMRB</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="education.html" onclick="closeMenu()">Education</a></li>
+                <li><a href="achievements.html" onclick="closeMenu()">Achievements</a></li>
+                <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+                <li><a href="contact.html" onclick="closeMenu()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="education-container">
+        <h1 class="page-title fade-in">Educational Attainment</h1>
+        
+        <div class="timeline-container">
+            <!-- Nursery-Kinder 2 -->
+            <div class="education-card fade-in">
+                <div class="card-icon">
+                    <img src="K2 LOGO.png" alt="Early Childhood Education Logo" onerror="this.style.display='none'">
+                </div>
+                <div class="card-content">
+                    <h2 class="education-level">Nursery - Kinder 2</h2>
+                    <h3 class="school-name">Our lady of Consolation Learning
+</h3>
+                    <p class="year">Foundation Years</p>
+                    <div class="description">
+                        <p>Started my educational journey with foundational learning, creativity, and social development.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elementary -->
+            <div class="education-card fade-in">
+                <div class="card-icon">
+                    <img src="ELEM LOGO.png" alt="Mount Carmel School of San Luis Logo">
+                </div>
+                <div class="card-content">
+                    <h2 class="education-level">Elementary</h2>
+                    <h3 class="school-name">Mount Carmel School of San Luis</h3>
+                    <p class="year">2013 - 2019</p>
+                    <div class="description">
+                        <p>Completed elementary education with honors. Built strong academic foundations and developed passion for extracurricular activities.</p>
+                        <div class="achievement-badge">🏆 With Honors</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- High School -->
+            <div class="education-card fade-in">
+                <div class="card-icon">
+                    <img src="HS LOGO.png" alt="Aurora National Science High School Logo">
+                </div>
+                <div class="card-content">
+                    <h2 class="education-level">High School</h2>
+                    <h3 class="school-name">Aurora National Science High School</h3>
+                    <p class="year">2019 - 2025</p>
+                    <div class="description">
+                        <p>Junior High School 2019-2023, received with honors award. 2023-2025 Senior High School, Was part of a school's publication (The Nucleus) served as Graphics Editor and Technical Director 1 for TV broadcasting. Graduated with Outstanding Performance in Communication Arts and Media Arts (Filipino category). Developed skills in multimedia and communication.</p>
+                        <div class="achievement-badge">⭐ Outstanding Performance</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- College -->
+            <div class="education-card fade-in active">
+                <div class="card-icon">
+                    <img src="COLLEGE LOGO.png" alt="University of the Cordilleras Logo">
+                </div>
+                <div class="card-content">
+                    <h2 class="education-level">College</h2>
+                    <h3 class="school-name">University of the Cordilleras</h3>
+                    <p class="year">2025 - Present</p>
+                    <div class="description">
+                        <p>Currently pursuing Bachelor of Science in Information Technology, majoring in Web Technology. Specializing in web development, UI/UX design, and digital innovation.</p>
+                        <div class="achievement-badge current">📖 Currently Enrolled</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        <a href="index.html" class="pagination-btn prev">
+            <span>←</span>
+            <span class="pagination-text">Previous</span>
+        </a>
+        <a href="about.html" class="pagination-btn next">
+            <span class="pagination-text">Next</span>
+            <span>→</span>
+        </a>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
