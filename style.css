@@ -332,11 +332,12 @@ nav ul a:hover::before {
 }
 
 .spline-showcase {
+    margin-top: -12rem;
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 350px;
+    height: 480px;
     animation: fadeInUp 0.8s ease-out 0.4s backwards;
 }
 
