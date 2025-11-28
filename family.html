@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Barnayha - Bachelor of Science in Information Technology - Web Technology</title>
+    <link rel="stylesheet" href="fam.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="background">
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="orb"></div>
+        <div class="stars">
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+            <div class="star"></div>
+        </div>
+    </div>
+
+<!-- Main Content -->
+    <main class="fam-container">
+        <h1 class="page-title fade-in">My Family</h1>
+        
+        <div class="timeline-container">
+            <!-- Mother -->
+            <div class="fam-card fade-in">
+                <div class="card-icon">
+                    <img src="MOTHER.png" alt="Early Childhood Education Logo" onerror="this.style.display='none'">
+                </div>
+                <div class="card-content">
+                    <h2 class="fam-member">My Mother</h2>
+                    <h3 class="fam-name">Melanie R.Barnayha</h3>
+                    <div class="description">
+                        <p>Thank you, Mom, for your endless love, strength, and sacrifices. Ever since I was a child, you have been my guiding light and my biggest supporter, When Dad is not around and at work, you're the one who is by my side. 
+                            Everything I am today is because of you. We may have our disagreements, but your unwavering support has always been my anchor.
+                            I’m truly grateful for your guidance and your heart that always puts others first. I love you more than words can say.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Father -->
+            <div class="fam-card fade-in">
+                <div class="card-icon">
+                    <img src="FATHER.png" alt="Mount Carmel School of San Luis Logo">
+                </div>
+                <div class="card-content">
+                    <h2 class="fam-member">My Father</h2>
+                    <h3 class="fam-name">Jayson P. Barnayha</h3>
+                    <div class="description">
+                        <p>Thank you, Dad, for your guidance, discipline, and the strength you’ve taught me through your high standards. Evey since I was a kid you were there and protect me, you even gave up
+                            your job in Germany just to be with us. I always felt pressured to meet your expectations, but
+                            I now understand that your strictness came from love and your desire to see me become my best self and you wanted me to be the perfect role model for my siblings. I appreciate everything you’ve done for me.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Siblings -->
+            <div class="fam-card fade-in">
+                <div class="card-icon">
+                    <img src="MY SIBLINGS.png" alt="Aurora National Science High School Logo">
+                </div>
+                <div class="card-content">
+                    <h2 class="fam-member">My Siblings</h2>
+                    <h3 style="font-size: 16px;" class="fam-name">Michael Jared R. Barnayha <br>
+                                         Jaimee Riane R. Barnayha <br>
+                                         Jayden Riley R. Barnayha
+                                        </h3>
+                    <div style="font-size: 14px;" class="description">
+                        <p>
+                            Even though I don’t always show it, I’m really grateful my gremlins. I was so happy having you Jared when our parents said that I will be having a brother you were my first ever playmate.
+                            As for you Jaimee, even though I tend to ignore you at times, I really do care about you and I’m proud of the young lady you are becoming.
+                            And to you Jayden, you may not undestand this but soon, thank you for always looking up to me and bringing joy to our family with your energy and laughter. 
+                            Thank you for your patience, your support, 
+                            and for being there in ways I sometimes take for granted. I may not say it often, but I love and appreciate you all.
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">JMRB</a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="education.html" onclick="closeMenu()">Education</a></li>
+                <li><a href="achievements.html" onclick="closeMenu()">Achievements</a></li>
+                <li><a href="family.html" onclick="closeMenu()">My Family</a></li>
+                <li><a href="batch.html" onclick="closeMenu()">My Batchmates</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Pagination -->
+    <div class="pagination">
+        <a href="achievements.html" class="pagination-btn prev">
+            <span>←</span>
+            <span class="pagination-text">Previous</span>
+        </a>
+        <a href="batch.html" class="pagination-btn next">
+            <span class="pagination-text">Next</span>
+            <span>→</span>
+        </a>
+    </div>
