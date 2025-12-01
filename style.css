@@ -478,7 +478,7 @@ nav ul a:hover::before {
 .pagination {
     position: fixed;
     bottom: 30px;
-    left: 50%;
+    left: 88%;
     transform: translateX(-50%);
     display: flex;
     gap: 2rem;
